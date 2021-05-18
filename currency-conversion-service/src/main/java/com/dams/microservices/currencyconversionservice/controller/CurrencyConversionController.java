@@ -1,6 +1,6 @@
 package com.dams.microservices.currencyconversionservice.controller;
 
-import com.dams.microservices.currencyconversionservice.config.CurrencyExchangeProxy;
+import com.dams.microservices.currencyconversionservice.proxy.CurrencyExchangeProxy;
 import com.dams.microservices.currencyconversionservice.domain.CurrencyConversion;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
